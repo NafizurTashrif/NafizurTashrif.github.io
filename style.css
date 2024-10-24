@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Full black background */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    font-size: 2em;
+    margin: 0;
+}
+
+header nav {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+#fractalCanvasContainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fractalCanvas {
+    width: 60vw;  /* Adjust the width to match the screenshot size */
+    height: auto;
+}
+
+section {
+    max-width: 1000px;
+    margin: 100px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #000;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
