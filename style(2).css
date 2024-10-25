@@ -27,8 +27,8 @@ nav a {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100vh; 
-    z-index: -1; 
+    height: 100vh; /* Full viewport height */
+    z-index: -1; /* Push fractal behind the content */
     transform: translateX(3cm);
 }
 
