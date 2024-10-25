@@ -29,12 +29,12 @@ nav a {
     width: 100%;
     height: 100vh; 
     z-index: -1; 
-    transform: translateX(6cm);
+    transform: translateX(3cm);
 }
 
 #fractalCanvas {
-    width: 60%;
-    height: 60%;
+    width: 100%;
+    height: 75%;
 }
 
 #writing-section-container {
