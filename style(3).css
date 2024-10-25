@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0 20px; 
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+header, section, footer {
+    padding: 0 20px; 
+}
+
+#article-content {
+    padding: 20px; 
+}
+
+h1, h2, p {
+    margin-left: 20px; 
+}
